@@ -64,6 +64,8 @@ class App extends Component {
       document.getElementById('guide1').style.display = 'inherit';
       document.getElementById('emailForm').style.display = 'none';
       document.getElementById('introGuide').style.display = 'none';
+      document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+
 
       document.body.scrollTop = 0;
       document.documentElement.scrollTop = 0;
@@ -88,7 +90,10 @@ class App extends Component {
           buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
           buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
           buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-          buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+          buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+          document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+          })
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 2) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -98,7 +103,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 3) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -108,7 +116,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 4) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -118,7 +129,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 5) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -128,7 +142,10 @@ class App extends Component {
             buttonFive: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 6) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -138,7 +155,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 7) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -148,7 +168,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 8) {
           this.setState({currentSlide: this.state.currentSlide - 1,
             buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -158,7 +181,10 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
+
         }
       } else if(this.state.currentSlide === 26){
         document.getElementById('button25').style.display = 'none';
@@ -188,7 +214,9 @@ class App extends Component {
         document.getElementById('resetWithTwo').style.display = 'none';
         document.getElementById('previousButton').style.visibility = 'hidden';
 
-        this.setState({currentSlide: this.state.currentSlide - 1})
+        this.setState({currentSlide: this.state.currentSlide - 1}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
 
         if(this.state.statementsSelectedThreeTimes.length <= 1){
           document.getElementById('guide2').innerHTML = 'Click Next';
@@ -285,7 +313,9 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
         } else if(this.state.buttonSelected[this.state.currentSlide] === 1){
           this.setState({currentSlide: this.state.currentSlide + 1,
             buttonOne: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -295,7 +325,9 @@ class App extends Component {
             buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+            buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 2) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -305,7 +337,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 3) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -315,7 +349,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 4) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -325,7 +361,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 5) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -335,7 +373,9 @@ class App extends Component {
               buttonFive: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 6) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -345,7 +385,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 7) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -355,7 +397,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           } else if (this.state.buttonSelected[this.state.currentSlide] === 8) {
             this.setState({currentSlide: this.state.currentSlide + 1,
               buttonOne: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
@@ -365,7 +409,9 @@ class App extends Component {
               buttonFive: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
-              buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"})
+              buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
           }
 
         } else if(this.state.currentSlide === 24){
@@ -403,7 +449,9 @@ class App extends Component {
                        statementsSelectedThreeTimes: tempThreeTimesArray,
                        levelForStatementSelectedOnce: tempOneTimeArraylevel,
                        currentSlide: this.state.currentSlide + 1
-                       })
+                       }, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
 
         document.getElementById('guide2').style.display = 'inherit';
 
@@ -475,7 +523,9 @@ class App extends Component {
       document.getElementById('previousButton').style.visibility = 'visible';
 
 
-      this.setState({currentSlide: this.state.currentSlide + 1})
+      this.setState({currentSlide: this.state.currentSlide + 1}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
 
 
       if(this.state.statementsSelectedTwoTimes.length <= 1){
@@ -581,7 +631,9 @@ class App extends Component {
   } else if(this.state.currentSlide === 26){
     if(this.state.priorityCountWithTwo === this.state.statementsSelectedTwoTimes.length || this.state.statementsSelectedTwoTimes.length === 0 || this.state.statementsSelectedTwoTimes.length === 1 ){
 
-    this.setState({currentSlide: this.state.currentSlide + 1})
+    this.setState({currentSlide: this.state.currentSlide + 1}, () =>{
+document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+})
 
     document.getElementById('button25').style.display = 'none';
     document.getElementById('button26').style.display = 'none';
@@ -763,6 +815,7 @@ class App extends Component {
   } else if(this.state.currentSlide === 27){
         document.getElementById('nextButton').style.display = 'none';
         document.getElementById('priorityPart').style.display = 'none';
+        document.getElementById('title').innerHTML = 'KVI';
 
         const tempOutputResult = this.state.outputResult;
 
@@ -795,12 +848,6 @@ class App extends Component {
 
         this.setState({outputResult: tempOutputResult},() => {
 
-          console.log(JSON.stringify({
-            email: this.state.email,
-            firstName: this.state.firstName,
-            lastName: this.state.lastName,
-            outputArray: this.state.outputResult
-          }));
 
           fetch('https://pacific-brook-35578.herokuapp.com/', {
             method: 'post',
@@ -1742,7 +1789,7 @@ class App extends Component {
 
     return (
       <div>
-          <h1 className='tc f2 b'>KVI</h1>
+          <h1 className='tc f2 b' id='title'>KVI</h1>
 
           <div id="emailForm">
           <h2 className='tc f3 b pa2' id='introGuide'>Welcome to Value Mentor's Key Values Inventory (KVI)</h2>
