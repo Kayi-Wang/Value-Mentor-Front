@@ -816,6 +816,7 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
         document.getElementById('nextButton').style.display = 'none';
         document.getElementById('priorityPart').style.display = 'none';
         document.getElementById('title').innerHTML = 'KVI';
+        document.getElementById('guide2').innerHTML = '';
 
         const tempOutputResult = this.state.outputResult;
 
