@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import './App.css';
+import logo from './KVI Logo.png';
 import { value } from '../components/statementFiles.js'
 import 'tachyons';
 
@@ -65,6 +66,7 @@ class App extends Component {
       document.getElementById('emailForm').style.display = 'none';
       document.getElementById('introGuide').style.display = 'none';
       document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+      document.getElementById('logo').style.display = 'none';
 
 
       document.body.scrollTop = 0;
@@ -1790,6 +1792,7 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
 
     return (
       <div>
+        <img src={logo} alt='Logo' class='responsiveImage' id='logo'/>
           <h1 className='tc f2 b' id='title'>KVI</h1>
 
           <div id="emailForm">
