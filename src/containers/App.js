@@ -94,6 +94,8 @@ class App extends Component {
           buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
           buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
           document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
           })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 2) {
@@ -106,7 +108,9 @@ class App extends Component {
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 3) {
@@ -119,7 +123,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 4) {
@@ -132,7 +138,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 5) {
@@ -145,7 +153,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 6) {
@@ -158,7 +168,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 7) {
@@ -171,7 +183,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         } else if (this.state.buttonSelected[this.state.currentSlide - 2] === 8) {
@@ -184,7 +198,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
 
         }
@@ -217,7 +233,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
         document.getElementById('previousButton').style.visibility = 'hidden';
 
         this.setState({currentSlide: this.state.currentSlide - 1}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+        document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
 })
 
         if(this.state.statementsSelectedThreeTimes.length <= 1){
@@ -292,8 +310,6 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
       }
     }
 
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
 
   }
 
@@ -316,7 +332,10 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+
 })
         } else if(this.state.buttonSelected[this.state.currentSlide] === 1){
           this.setState({currentSlide: this.state.currentSlide + 1,
@@ -328,7 +347,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
             buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
             buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
             buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 2) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -340,7 +361,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 3) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -352,7 +375,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 4) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -364,7 +389,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 5) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -376,7 +403,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 6) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -388,7 +417,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 7) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -400,7 +431,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           } else if (this.state.buttonSelected[this.state.currentSlide] === 8) {
             this.setState({currentSlide: this.state.currentSlide + 1,
@@ -412,7 +445,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               buttonSix: "tl btn btn-outline-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6",
               buttonSeven: "tl btn btn-outline-primary dib br3 pa2 mv3 mh5 grow bw2 shadow-5 f6",
               buttonEight: "tl btn btn-primary dib br3 pa2 mv2 mh5 grow bw2 shadow-5 f6"}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
 })
           }
 
@@ -428,6 +463,8 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
         document.getElementById('statementSelections').style.display = 'none';
         document.getElementById('previousButton').style.visibility = 'hidden';
         document.getElementById('guide1').style.display = 'none';
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
 
         const tempOneTimeArray = this.state.statementsSelectedOneTime
         const tempTwoTimesArray = this.state.statementsSelectedTwoTimes
@@ -452,7 +489,7 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
                        levelForStatementSelectedOnce: tempOneTimeArraylevel,
                        currentSlide: this.state.currentSlide + 1
                        }, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+        document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
 })
 
         document.getElementById('guide2').style.display = 'inherit';
@@ -526,7 +563,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
 
 
       this.setState({currentSlide: this.state.currentSlide + 1}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+      document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
 })
 
 
@@ -634,7 +673,9 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
     if(this.state.priorityCountWithTwo === this.state.statementsSelectedTwoTimes.length || this.state.statementsSelectedTwoTimes.length === 0 || this.state.statementsSelectedTwoTimes.length === 1 ){
 
     this.setState({currentSlide: this.state.currentSlide + 1}, () =>{
-document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+    document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.currentSlide) + ' of 27';
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 })
 
     document.getElementById('button25').style.display = 'none';
@@ -869,8 +910,6 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
 
   }
       }
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
     }
 
 
