@@ -861,7 +861,8 @@ document.getElementById('title').innerHTML = 'KVI: Slide ' + String(this.state.c
               lastName: this.state.lastName,
               outputArray: this.state.outputResult
             })
-          }).then(response => response.json()).then(data => document.getElementById('guide2').innerHTML = data.status)
+          }).then(response => response.json()).then(data => {document.getElementById('guide2').innerHTML = data.status;
+          window.open(data.return,"_blank")})
           }
         )
 
